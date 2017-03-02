@@ -1,5 +1,5 @@
 {
-  "name": "microsoft-cognitive-face-nodejs",
+  "name": "face",
   "version": "1.0.0",
   "description": "Unofficial Node.JS SDK for Microsoft Cognitive Services (Face API)",
   "main": "sdk.js",
