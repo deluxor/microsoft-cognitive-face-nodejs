@@ -7,7 +7,7 @@ This is a really simple and straightforward SDK, for now it has the basic functi
 - Add faces to a person
 - List Created Groups
 - Verifies a face to a Person
-(Basically this allow you to use the Face API to do a simple facial recognition)
+(Basically this allows you to use the Face API to do a simple facial recognition)
 
 A demo script is included in `/test/test.js`
 
