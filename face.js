@@ -13,7 +13,7 @@ class FACE {
 
     addPersonFace(groupId, personId, image) {
         return new Promise((resolve, reject) => {
-            this._API.addPersonFaceApi(groupId, groupName)
+            this._API.addPersonFaceApi(groupId, personId, image)
                 .then((res) => {
                     resolve(res);
                 })
