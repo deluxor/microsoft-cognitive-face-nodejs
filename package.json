@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/deluxor/microsoft-cognitive-face-nodejs#readme",
   "dependencies": {
+    "needle": "^1.5.0",
     "superagent": "^3.5.0"
   }
 }
