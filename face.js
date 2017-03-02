@@ -7,13 +7,59 @@ class FACE {
         this._API = new API(_subscriptionKey);
     }
 
-    verify() {
+    verifyPersonFace(faceId, personGroupId, personId) {
+        return new Promise((resolve, reject) => {
+            const payload = {
+                faceId,
+                personGroupId,
+                personId
+            };
+            this._API.verifyPersonFaceApi(payload)
+                .then((res) => {
+                    resolve(res);
+                })
+                .catch((err) => {
+                    reject(err);
+                });
+        });
+    }
 
+    verifyFaceFace(faceId1, faceId2) {
+        return new Promise((resolve, reject) => {
+            const payload = {
+                faceId1,
+                faceId2
+            };
+            this._API.verifyFaceFaceApi(payload)
+                .then((res) => {
+                    resolve(res);
+                })
+                .catch((err) => {
+                    reject(err);
+                });
+        });
+    }
+
+    detectFace(image) {
+        return new Promise((resolve, reject) => {
+            this._API.detectFaceApi(image)
+                .then((res) => {
+                    resolve(res);
+                })
+                .catch((err) => {
+                    reject(err);
+                });
+        });
     }
 
     addPersonFace(groupId, personId, image) {
         return new Promise((resolve, reject) => {
-            this._API.addPersonFaceApi(groupId, personId, image)
+            const payload = {
+                groupId,
+                personId,
+                image
+            };
+            this._API.addPersonFaceApi(payload)
                 .then((res) => {
                     resolve(res);
                 })
