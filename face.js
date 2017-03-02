@@ -44,7 +44,7 @@ class FACE {
         return new Promise((resolve, reject) => {
             this._API.detectFaceApi(image)
                 .then((res) => {
-                    resolve(res);
+                    resolve(res.faceId);
                 })
                 .catch((err) => {
                     reject(err);
