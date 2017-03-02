@@ -1,0 +1,43 @@
+{
+  "name": "microsoft-cognitive-face-nodejs",
+  "version": "1.0.0",
+  "description": "Unofficial Node.JS SDK for Microsoft Cognitive Services (Face API)",
+  "main": "sdk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deluxor/microsoft-cognitive-face-nodejs.git"
+  },
+  "keywords": [
+    "microsoft",
+    "cognitive",
+    "face",
+    "face",
+    "api",
+    "microsoft",
+    "cognitive",
+    "services",
+    "facial",
+    "auth",
+    "facial",
+    "authentication",
+    "facial",
+    "verify",
+    "facial",
+    "detect",
+    "security",
+    "biometrics",
+    "biometric"
+  ],
+  "author": "João Duarte (du@rte.pm)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deluxor/microsoft-cognitive-face-nodejs/issues"
+  },
+  "homepage": "https://github.com/deluxor/microsoft-cognitive-face-nodejs#readme",
+  "dependencies": {
+    "superagent": "^3.5.0"
+  }
+}
