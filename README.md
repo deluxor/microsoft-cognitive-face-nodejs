@@ -14,4 +14,4 @@ A demo script is included in `/test/test.js`
 More features will be added with time.
 Feel free to extend the code, submit error fixes / code improvements.
 
-Any question you might have just open an issue or poke me at: du(at)rte(dot)pm
+Any question you might have just open an issue or poke me at: `du(at)rte(dot)pm`
