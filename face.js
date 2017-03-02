@@ -73,7 +73,7 @@ class FACE {
         return new Promise((resolve, reject) => {
             this._API.createPersonApi(groupId, groupName)
                 .then((res) => {
-                    resolve(res);
+                    resolve(res.personId);
                 })
                 .catch((err) => {
                     reject(err);
