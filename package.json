@@ -2,7 +2,7 @@
   "name": "face",
   "version": "1.0.0",
   "description": "Unofficial Node.JS SDK for Microsoft Cognitive Services (Face API)",
-  "main": "sdk.js",
+  "main": "face.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
