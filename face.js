@@ -44,10 +44,7 @@ class FACE {
         return new Promise((resolve, reject) => {
             this._API.detectFaceApi(image)
                 .then((res) => {
-                    console.log('=============== DETECT')
-                    console.log(res)
-                    resolve(res);
-                    console.log('=============== DETECT')
+                    resolve(res[0].faceId);
                 })
                 .catch((err) => {
                     reject(err);
