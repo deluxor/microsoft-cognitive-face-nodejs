@@ -45,9 +45,9 @@ class FACE {
             this._API.detectFaceApi(image)
                 .then((res) => {
                     console.log('=============== DETECT')
+                    console.log(res)
                     resolve(res);
                     console.log('=============== DETECT')
-
                 })
                 .catch((err) => {
                     reject(err);
