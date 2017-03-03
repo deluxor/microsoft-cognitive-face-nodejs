@@ -61,6 +61,7 @@ class FACE {
             };
             this._API.addPersonFaceApi(payload)
                 .then((res) => {
+                    console.log(res);
                     resolve(res.persistedFaceId);
                 })
                 .catch((err) => {
