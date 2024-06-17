@@ -31,7 +31,7 @@
     "biometrics",
     "biometric"
   ],
-  "author": "João Duarte (du@rte.pm)",
+  "author": "João Duarte",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deluxor/microsoft-cognitive-face-nodejs/issues"
